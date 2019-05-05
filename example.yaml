@@ -1,0 +1,15 @@
+RunName: ProjectName
+
+SampleIds: [Sample_folder_name, Sample_folder_name]
+SampleNames: [Sample_name, Sample_name]
+
+PathToFastq: /path_to_the_sample_folders
+PathToAligned: /gscmnt/gc2676/martyomov_lab/sairam/Schilling_Lab/DT-1310/xfer.genome.wustl.edu/gxfer1/align2
+Genome: /path_to_the_reference_genome
+
+
+PathToAnalysis: /gscmnt/gc2676/martyomov_lab/sairam/Schilling_Lab/DT-1310/xfer.genome.wustl.edu/gxfer1/analysis2
+
+
+
+

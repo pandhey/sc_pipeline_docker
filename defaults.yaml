@@ -1,0 +1,24 @@
+SkipAlignment: False
+CellsExpected: 10000
+
+Merge: True
+RunSingleAnalysis: True
+AdditionalMerge: []
+
+FilterMito: True
+FilterMitoPercent: 0.05
+RegressUmi: True
+RegressMito: True
+
+PcaVarGenes: True
+PcaComponentsTotal: 20
+PcaComponentsTsne: 20
+
+Clustering:
+  GraphBased:
+    PcaComponents: 20
+    Resolution: 0.6
+
+Markers:
+  Test: MAST
+
