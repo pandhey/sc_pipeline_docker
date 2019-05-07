@@ -11,7 +11,7 @@ LSF_DOCKER_PRESERVE_ENVIRONMENT=false bsub -q research-hpc \
         -e ${NAME}.string.err -R 'select[mem>64000] rusage[mem=64000]' \
         -a "docker(fbrundu/cellranger)" /bin/bash -c "cellranger count --id=$NAME \
         --transcriptome={{ Genome }} \
-        --fastqs={PathToFastq}/${SAMPLE} \
+        --fastqs={PathToFastq}/${NAME} \
         --nosecondary \
         --localmem=64 \
         --localcores=16"
