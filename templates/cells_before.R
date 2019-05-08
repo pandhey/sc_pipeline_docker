@@ -1,3 +1,1 @@
-data <- FetchData(x = whole)
-cells.before <- length(rownames(data))
-
+cells.before <- length(colnames(x = whole))
