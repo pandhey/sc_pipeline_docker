@@ -3,7 +3,7 @@ dataFolder <- "{{ PathToAligned }}"
 
 dataFolders <- list()
 {% for SampleId in SampleIds %}
-dataFolders[[{{ loop.index }}]] <- paste(dataFolder,"/{{ SampleId }}/outs/filtered_gene_bc_matrices", sep="")
+dataFolders[[{{ loop.index }}]] <- paste(dataFolder,"/{{ SampleId }}/outs/filtered_feature_bc_matrix", sep="")
 {% endfor %}
 
 fdata <- list()
