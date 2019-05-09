@@ -1,7 +1,7 @@
 dataFolder <- "{{ PathToAligned }}"
 
 dataFolders <- list()
-dataFolders[[1]] <- paste(dataFolder,"/{{ SampleId }}/outs/filtered_gene_bc_matrices", recursive=F)
+dataFolders[[1]] <- paste(dataFolder,"/{{ SampleId }}/outs/filtered_feature_bc_matrix", recursive=F)
 
 fdata <- list()
 fdata[[1]] <- Read10X(dataFolders[[1]])
