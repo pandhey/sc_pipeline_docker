@@ -1,1 +1,1 @@
-whole <- RunTSNE(object = whole, dims.use = 1:{{ PcaComponentsTsne }})
+whole <- RunTSNE(object = whole, dims = 1:{{ PcaComponentsTsne }})
